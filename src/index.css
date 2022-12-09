@@ -14,7 +14,7 @@ main {
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(to right, #ef32d9, #89fffd);
+  background: linear-gradient(to right, #ff0099, #493240);
   color: white ;
   padding: 20px;
 }
@@ -40,7 +40,7 @@ main {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
-  background: linear-gradient(to right, #ef32d9, #89fffd);
+  background: linear-gradient(to right, #ff0099, #493240);
   color: white;
   border: none;
   cursor: pointer;
@@ -52,4 +52,8 @@ main {
   border: 1px solid #D5D4D8;
   text-indent: 5px;
   
+}
+
+.meme--image {
+  max-width: 100%;
 }
